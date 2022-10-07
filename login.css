@@ -1,0 +1,33 @@
+*{
+    background-color: aquamarine;
+   }
+body{
+    margin: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+ }
+ .a1{
+     text-align: center;
+     
+  }
+  .a2{
+      text-align: center;
+   }
+   .a3{
+      text-align: center;
+   }
+   .b1::before{
+    content: "";
+    position:absolute;
+    background:url(growth1.jpg) no-repeat center center/cover;
+    height: 1029px; 
+    top: 896px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.7;
+}
+   
+   
