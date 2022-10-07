@@ -1,0 +1,330 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   /** background-color: #e6dcb9;**/
+}
+header{
+    width: 96%;
+    height: 110px;
+    margin: 0 auto;
+    border-bottom: 2px solid #e5e5e5;
+}
+header .logo
+{
+    width: 15%;
+    float: left;
+    text-align: center;
+}
+header .logo h1
+{
+    color: purple;
+}
+header .logo h1 span
+{
+    color: red;
+}
+header .cx
+{
+    width: 85%;
+    float: left;
+}
+header .head,
+header .search
+{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: left;
+}
+header .head ul li
+{
+    list-style: none;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+header .head ul li a
+{
+    text-decoration: none;
+    color: #757575;
+
+}
+header .head ul:nth-child(1)
+{
+    width: 55%;
+}
+header .search input
+{
+    width: 70%;
+    height: 40px;
+    padding: 10px;
+    color: #757575;
+    border: 1px solid #e5e5e5;
+    outline: none;
+}
+header .search a
+{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    text-decoration: none;
+    color:purple;
+    background: #ffa500;
+}
+nav
+{
+    width: 96%;
+    height: 50px;
+    margin: 0px auto;
+    background: orange;
+}
+nav ul li
+{
+    
+    list-style: none;
+    float: left;
+    padding: 5px;
+    margin: 0px 20px;
+}
+nav ul li a
+{
+    font-size:  23px;;
+    text-decoration: none;
+    text-align: center;
+    color: #8c2a77;
+}
+nav ul li a>i
+{
+    margin-right: 20px;
+}
+main
+{
+    width: 96%;
+    height: auto;
+    margin: 0px auto;
+}
+main.banner
+{
+    width: 100%;
+    height: 600px;
+    background: purple;
+    display: flex;
+    justify-content: left;
+    overflow: hidden;
+}
+main section.banner div
+{
+    width: 30%;
+    text-align: center;
+}
+main section.banner div h1
+{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    letter-spacing: 10px;
+    font-size: 30px;
+    color: purple;
+}
+main section.banner div button
+{
+    border: none;
+    outline: none;
+    background: orangered;
+    color: purple;
+    font-weight: bold;
+    margin-left: 100px;
+    position: relative;
+    padding: 10px;
+    top: 200px;
+    width: 100px;
+}
+main section.banner img
+{
+    width: 70%;
+    height: 70%;
+}
+.item3
+{
+    width: 96%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.item3 .inner-3
+{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.item3 .inner-3 div
+{
+    padding-top: 20px;
+
+}
+.item3 .inner-3 div button
+{
+    border: none;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.item3 .inner-3 img
+{
+    width: 50%;
+}
+.cl
+{
+    width: 96%;
+    height: 550px;
+
+}
+.cl h1
+{
+    width: 100%;
+    background: orange;
+    color: purple;
+    margin-bottom: 50px;
+}
+.seller
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.seller .inner-seller
+{
+    width: 20%;
+}
+.seller .inner-seller
+{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.seller .inner-seller .inner-left
+{
+    display: flex;
+    justify-content: space-around;
+}
+.seller .inner-seller .inner-left button
+{
+    width: 35%;
+    height: 35px;
+    align-self: center;
+    border: none;
+    outline: none;
+    background: orangered;
+    color: purple;
+    font-weight: bold;
+
+}
+.large
+{
+    width: 96%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+.large .inner-large
+{
+    width: 32%;
+    margin: 0px 5px;
+
+}
+.large .inner-large:nth-child(1)
+{
+    background: linear-gradient(100deg, #050206 10%,#490244 70%);
+
+}
+.large .inner-large:nth-child(2)
+{
+    background: linear-gradient(100deg, #050207 10%,#490244 70%);
+}
+.large .inner-large:nth-child(3)
+{
+    background: linear-gradient(100deg, #070308 10%,#490244 70%);
+}
+.large .inner-large img
+{
+    width: 100%;
+}
+.large .inner-large div
+{
+    text-align: center;
+}
+.large .inner-large div h1{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.large .inner-large:nth-child(1) div h1
+{
+    color: #922a2a;
+}
+.large .inner-large:nth-child(2) div h1
+{
+    color: #6c256d;
+}
+.large .inner-large:nth-child(3) div h1
+{
+    color: #e7dce8;
+}
+footer
+{
+    width: 96%;
+    height: 400px;
+    margin: 20px auto;
+    padding-top: 20px;
+    border-top: 2px solid #e5e5e5;
+    display: flex;
+    justify-content: space-around;
+}
+footer div p
+{
+    margin: 30px auto;
+
+}
+footer div.input
+{
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #e5e5e5;
+
+}
+footer div button
+{
+    border: none;
+    outline: none;
+    background: orangered;
+    color: purple;
+    font-weight: bold;
+    margin-left: -4px;
+    padding: 8px;
+}
+footer div i{
+    padding: 10px 11.5px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid purple;
+
+}
+footer div ul li
+{
+     list-style: none;
+     margin: 10px auto;
+}
+footer ul li a
+{
+    text-decoration: none;
+    color: purple;
+}

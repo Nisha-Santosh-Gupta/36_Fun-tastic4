@@ -1,0 +1,79 @@
+.nv{
+  margin: -8px;
+  text-align: center;
+  
+
+}
+.re{
+  text-align: center;
+  justify-content: center;
+  margin: 20px ;
+  width: 250px;
+  margin-left: 669px;
+  
+}
+.form-check{
+  display: inline;
+ 
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 60px;
+}
+
+#navbar ul {
+  display: flex;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.90;
+
+
+}
+
+#navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+#navbar ul li a {
+  display: flex;
+  margin-left: 600px;
+  color: white;
+  display: block;
+  padding: 7px 193px;
+  border-radius: 20px;
+  text-decoration: none;
+
+}
+
+#navbar ul li a:hover {
+  display: block;
+  background-color: lightgrey;
+}
+
+.log{
+  margin-top: 50px;
+}
+.head{
+  justify-content: inline;
+  text-align: center;
+  margin-top: 20px;
+}
+.sign
+{
+  margin-top: 690px;
+}
+.rm
+{
+  margin-left: 740px;
+}
