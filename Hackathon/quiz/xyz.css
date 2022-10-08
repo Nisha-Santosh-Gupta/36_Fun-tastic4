@@ -2,7 +2,8 @@
     margin-top: 54px;
     }
     .header {
-    padding: 15px;
+    background-color: #31b0d5;
+    padding: 8px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -31,7 +32,7 @@
     .option-block {
     padding: 10px;
     background: aliceblue;
-    border: 1px solid #84c5fe;
+    border: 1px solid #31b0d5;
     margin-bottom: 10px;
     cursor: pointer;
     }
@@ -56,3 +57,9 @@
     margin-bottom: 15px;
     padding-bottom: 15px;
     }
+    .B1
+    {
+        display: block;
+        color: #fff;
+    }
+    
